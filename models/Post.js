@@ -1,0 +1,13 @@
+const mongoose = require('mongoose');
+
+const postSchema = new mongoose.Schema({
+  title: { type: String, required: true },
+  content: { type: String, required: true },
+  author: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
+  category: { type: mongoose.Schema.Types.ObjectId, ref: 'Category' },
+  createdAt: { type: Date, default: Date.now }
+});
+
+// console.log("postSchema-", postSchema);
+
+module.exports = mongoose.model('Post', postSchema);
