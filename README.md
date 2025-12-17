@@ -1,5 +1,5 @@
 
-# CLEAN Blogging API (Beginner Friendly)
+# Blogging Platform API
 
 ## Run
 npm install
