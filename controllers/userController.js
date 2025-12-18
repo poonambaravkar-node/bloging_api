@@ -35,19 +35,3 @@ exports.getAllUsers = async (req, res) => {
     res.status(500).json({ message: err.message });
   }
 };
-
-
-// exports.getAllUsers = async (req, res) => {
-//   try {
-//     // Find the admin role's ObjectId
-//     const adminRole = await Role.findOne({ name: 'admin' });
-//     if (!adminRole) {
-//       return res.status(404).json({ message: 'Admin role not found' });
-//     }
-//     // Find users with the admin role
-//     const admins = await User.find({ role: adminRole._id }).populate('role', 'name');
-//     res.json(admins);
-//   } catch (err) {
-//     res.status(500).json({ message: err.message });
-//   }
-// };
