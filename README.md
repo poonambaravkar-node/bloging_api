@@ -125,7 +125,7 @@ Register a user:
 ```bash
 curl -X POST http://localhost:5000/api/auth/register \
   -H "Content-Type: application/json" \
-  -d '{"name":"Alice","email":"alice@example.com","password":"password123"}'
+  -d '{"name":"Poonam","email":"poonam@techjoomla.com","password":"admin1234"}'
 ```
 
 Login:
