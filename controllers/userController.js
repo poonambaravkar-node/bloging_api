@@ -11,7 +11,6 @@ exports.getProfile = async (req, res) => {
 };
 
 // Get all users
-// http://localhost:5000/api/users/admin/users?role=admin 
 // if role is not provided, it will return all users
 // if role is provided, it will return all users with the role
 
