@@ -8,10 +8,6 @@ const {
   getTrendingPosts
 } = require('../controllers/postController');
 
-// console.log("Route.createPost -", createPost);
-// console.log("Route.getAllPosts -", getAllPosts);
-// console.log("Route.getPostsByCategory -", getPostsByCategory);
-// console.log("Route.getTrendingPosts -", getTrendingPosts);
 
 // Public Routes
 router.get('/', getAllPosts);
