@@ -132,7 +132,7 @@ Login:
 ```bash
 curl -X POST http://localhost:5000/api/auth/login \
   -H "Content-Type: application/json" \
-  -d '{"email":"alice@example.com","password":"password123"}'
+  -d '{"email":"poonam@techjoomla.com","password":"admin1234"}'
 ```
 
 ## Contribution
